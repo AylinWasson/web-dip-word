@@ -13,10 +13,12 @@
 
 **xpath**
 /html/body/main/div/div[2]/a/img
+
 /html/body/main/div/div[23]/a/img
 
 **CSS**
 body > main > div > div:nth-child(2) > a > img
+
 body > main > div > div:nth-child(23) > a > img
 
 2. 使用requests_html模块的HTMLSession
